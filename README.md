@@ -17,3 +17,5 @@ $ npm run build
 # 运行
 $ npm start
 ```
+
+TODO: 加Dockerfile
