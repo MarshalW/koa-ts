@@ -1,0 +1,11 @@
+.npmrc
+.env
+.git
+.gitignore
+.editorconfig
+.dockerignore
+
+node_modules
+dist
+note.md
+Dockerfile

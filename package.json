@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "serve": "node dist/server.js",
-    "start": "npm run serve",
+    "start": "node dist/server.js",
     "watch": "nodemon --ignore tests/ --watch src -e ts,tsx --exec ts-node src/server.ts"
   },
   "keywords": [],
