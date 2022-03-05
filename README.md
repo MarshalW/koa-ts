@@ -1,6 +1,8 @@
 # koa-ts
 
-使用 KOA 和 typescript 的简单示例
+使用 KOA 和 typescript 的简单示例.
+
+用于对后续使用的软件架构做验证.
 
 ## 特性
 
