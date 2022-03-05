@@ -24,4 +24,4 @@ $ npm start
 
 - typescript 使用 koa/ koa router
 - 使用 tini 防止停止 docker 容器时的 10 秒延时
-- 使用 exit-handler 在退出 node.js 服务时正确释放资源
+- 使用 exit-handler 在退出 node.js 服务时正确释放资源，另外也起到类似tini的作用
