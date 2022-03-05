@@ -13,13 +13,13 @@
 
 ## ts 的构建和运行
 
-开发：
+开发模式：
 
 ```bash
 $ npm run watch
 ```
 
-正式使用：
+产品模式：
 
 ```bash
 # 构建
@@ -27,6 +27,14 @@ $ npm run build
 
 # 运行
 $ npm start
+```
+
+只有一个 hello 服务：
+
+```bash
+$ curl localhost:4000/hello
+{"message":"Hello World!"}
+
 ```
 
 ## TODO
