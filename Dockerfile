@@ -17,10 +17,6 @@ RUN npm install
 COPY . .
 RUN npm run build
 
+ENTRYPOINT [ "tini","--"] 
+
 CMD [ "node", "dist/server" ]
-
-# CMD [ "tail", "-f", "." ]
-
-# ENTRYPOINT [ "tini","--"] 
-
-# CMD [ "node", "app" ]
