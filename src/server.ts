@@ -2,6 +2,7 @@ import Koa from 'koa';
 import Koa2Cors from 'koa2-cors';
 import KoaBodyParser from 'koa-bodyparser';
 import Router from 'koa-router';
+import exitHook from 'exit-hook';
 
 
 const Server = new Koa();
@@ -17,4 +18,8 @@ Server.use(router.routes()).use(router.allowedMethods());
 
 Server.listen(4000, () => {
     console.log('Server listening port 4000.');
+});
+
+exitHook(() => {
+	console.log('Exiting');
 });
